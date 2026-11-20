@@ -1,0 +1,61 @@
+{
+    "experiment": "Cross-Scale Laplace Validation",
+    "client_id": 25,
+    "noise_seed": 2026,
+    "noise_scales": [
+        0.02,
+        0.1,
+        0.4
+    ],
+    "pixels_per_scale": 73696,
+    "records": [
+        {
+            "noise_scale": 0.02,
+            "pixel_samples": 73696,
+            "standardized_mean": 0.0007944371609760159,
+            "standardized_mean_abs": 0.9949030123019317,
+            "standardized_variance": 1.9796695988115605,
+            "tail_probability": 0.13482414242292662,
+            "horizontal_correlation": -4.823143751562668e-05,
+            "across_image_correlation": 0.002705029854374089,
+            "actual_mean_abs_noise": 0.019898060246038633,
+            "theoretical_mean_abs_noise": 0.02,
+            "actual_noise_variance": 0.0007918678395246242,
+            "theoretical_noise_variance": 0.0008,
+            "passed": true
+        },
+        {
+            "noise_scale": 0.1,
+            "pixel_samples": 73696,
+            "standardized_mean": 0.0007944354496290854,
+            "standardized_mean_abs": 0.9949030127213501,
+            "standardized_variance": 1.9796695942656701,
+            "tail_probability": 0.13482414242292662,
+            "horizontal_correlation": -4.82305921107337e-05,
+            "across_image_correlation": 0.0027050268594941665,
+            "actual_mean_abs_noise": 0.09949030127213501,
+            "theoretical_mean_abs_noise": 0.1,
+            "actual_noise_variance": 0.019796695942656706,
+            "theoretical_noise_variance": 0.020000000000000004,
+            "passed": true
+        },
+        {
+            "noise_scale": 0.4,
+            "pixel_samples": 73696,
+            "standardized_mean": 0.0007944344319744145,
+            "standardized_mean_abs": 0.9949030113489649,
+            "standardized_variance": 1.9796695898103291,
+            "tail_probability": 0.13482414242292662,
+            "horizontal_correlation": -4.822926803462544e-05,
+            "across_image_correlation": 0.0027050263300846876,
+            "actual_mean_abs_noise": 0.39796120453958594,
+            "theoretical_mean_abs_noise": 0.4,
+            "actual_noise_variance": 0.31674713436965274,
+            "theoretical_noise_variance": 0.32000000000000006,
+            "passed": true
+        }
+    ],
+    "all_passed": true,
+    "full_fedavg_training_performed": false,
+    "held_out_test_accessed": false
+}

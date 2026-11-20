@@ -1,0 +1,53 @@
+{
+    "test": "Laplace Local SGD Validation",
+    "test_clients": [
+        22,
+        25,
+        67
+    ],
+    "local_epochs": 2,
+    "learning_rate": 0.01,
+    "batch_size": 32,
+    "noise_seed": 2026,
+    "diagnostics": [
+        {
+            "client_id": 22,
+            "samples": 257,
+            "local_epochs": 2,
+            "expected_optimizer_steps": 18,
+            "zero_noise_parameter_difference": 0.0,
+            "zero_noise_loss_difference": 0.0,
+            "noisy_vs_clean_parameter_difference": 0.005651229526847601,
+            "noisy_vs_initial_parameter_difference": 0.019966114312410355,
+            "clean_local_loss": 4.071392513434711,
+            "noisy_local_loss": 4.069236284100128
+        },
+        {
+            "client_id": 25,
+            "samples": 94,
+            "local_epochs": 2,
+            "expected_optimizer_steps": 6,
+            "zero_noise_parameter_difference": 0.0,
+            "zero_noise_loss_difference": 0.0,
+            "noisy_vs_clean_parameter_difference": 0.0005510412156581879,
+            "noisy_vs_initial_parameter_difference": 0.005785003304481506,
+            "clean_local_loss": 4.107653759895487,
+            "noisy_local_loss": 4.1074600574818065
+        },
+        {
+            "client_id": 67,
+            "samples": 314,
+            "local_epochs": 2,
+            "expected_optimizer_steps": 20,
+            "zero_noise_parameter_difference": 0.0,
+            "zero_noise_loss_difference": 0.0,
+            "noisy_vs_clean_parameter_difference": 0.0026079118251800537,
+            "noisy_vs_initial_parameter_difference": 0.015535149723291397,
+            "clean_local_loss": 3.9983420372009277,
+            "noisy_local_loss": 3.9955290950787297
+        }
+    ],
+    "zero_noise_equivalence_passed": true,
+    "nonzero_noise_updates_passed": true,
+    "original_checkpoints_unchanged": true
+}

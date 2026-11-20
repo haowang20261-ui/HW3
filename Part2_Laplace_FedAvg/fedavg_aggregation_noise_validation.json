@@ -1,0 +1,130 @@
+{
+    "experiment": "Controlled FedAvg Aggregation and Noise Propagation",
+    "clients": [
+        0,
+        25,
+        67
+    ],
+    "training_samples": [
+        275,
+        94,
+        314
+    ],
+    "total_samples": 683,
+    "local_epochs": 2,
+    "noise_scales": [
+        0.0,
+        0.1,
+        0.4
+    ],
+    "results": [
+        {
+            "noise_scale": 0.0,
+            "client_ids": [
+                0,
+                25,
+                67
+            ],
+            "sample_counts": [
+                275,
+                94,
+                314
+            ],
+            "sample_weights": [
+                0.40263543191800877,
+                0.1376281112737921,
+                0.45973645680819913
+            ],
+            "local_losses": [
+                4.021892345168374,
+                4.107653759895487,
+                3.9983420372009277
+            ],
+            "local_update_l2_norms": [
+                0.21608107696425843,
+                0.09967589861149019,
+                0.24528799684032424
+            ],
+            "global_update_l2_norm": 0.1967273285633644,
+            "numpy_reference_max_error": 0.0,
+            "permutation_max_error": 0.0,
+            "weighted_uniform_l2_difference": 0.040545231297335234,
+            "difference_from_zero_noise_l2": 0.0,
+            "difference_from_zero_noise_max": 0.0,
+            "passed": true
+        },
+        {
+            "noise_scale": 0.1,
+            "client_ids": [
+                0,
+                25,
+                67
+            ],
+            "sample_counts": [
+                275,
+                94,
+                314
+            ],
+            "sample_weights": [
+                0.40263543191800877,
+                0.1376281112737921,
+                0.45973645680819913
+            ],
+            "local_losses": [
+                4.022834596200423,
+                4.1074600574818065,
+                3.9955290950787297
+            ],
+            "local_update_l2_norms": [
+                0.2186678968275903,
+                0.0997967030839968,
+                0.2498420973607529
+            ],
+            "global_update_l2_norm": 0.19862816673570033,
+            "numpy_reference_max_error": 0.0,
+            "permutation_max_error": 0.0,
+            "weighted_uniform_l2_difference": 0.04109011079492064,
+            "difference_from_zero_noise_l2": 0.029978858238183036,
+            "difference_from_zero_noise_max": 0.0012261942028999329,
+            "passed": true
+        },
+        {
+            "noise_scale": 0.4,
+            "client_ids": [
+                0,
+                25,
+                67
+            ],
+            "sample_counts": [
+                275,
+                94,
+                314
+            ],
+            "sample_weights": [
+                0.40263543191800877,
+                0.1376281112737921,
+                0.45973645680819913
+            ],
+            "local_losses": [
+                4.024720271717419,
+                4.113649743668576,
+                3.9940847219175595
+            ],
+            "local_update_l2_norms": [
+                0.23415361917349214,
+                0.1055278077946277,
+                0.2622380511646709
+            ],
+            "global_update_l2_norm": 0.20400300542095504,
+            "numpy_reference_max_error": 0.0,
+            "permutation_max_error": 0.0,
+            "weighted_uniform_l2_difference": 0.04397270453252084,
+            "difference_from_zero_noise_l2": 0.07208629631296037,
+            "difference_from_zero_noise_max": 0.0025004297494888306,
+            "passed": true
+        }
+    ],
+    "all_passed": true,
+    "full_fedavg_training_performed": false,
+    "held_out_test_accessed": false
+}

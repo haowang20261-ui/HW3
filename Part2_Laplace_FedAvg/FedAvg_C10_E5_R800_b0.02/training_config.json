@@ -1,0 +1,17 @@
+{
+    "experiment": "Part2_Laplace_b0.02",
+    "noise_scale": 0.02,
+    "model_seed": 42,
+    "noise_seed": 2026,
+    "num_clients": 100,
+    "clients_per_round": 10,
+    "client_fraction": 0.1,
+    "local_epochs": 5,
+    "learning_rate": 0.01,
+    "batch_size": 32,
+    "target_rounds": 800,
+    "noise_policy": "fixed_per_client_image",
+    "training_clipping": false,
+    "training_accuracy_dataset": "perturbed_train",
+    "validation_dataset": "clean_val"
+}

@@ -1,0 +1,59 @@
+{
+    "test": "Laplace Noise Statistical Validation",
+    "client_id": 22,
+    "num_images": 257,
+    "num_pixel_values": 201488,
+    "random_seed": 2026,
+    "noise_scales": [
+        0.0,
+        0.02,
+        0.1,
+        0.4
+    ],
+    "statistics": [
+        {
+            "noise_scale": 0.0,
+            "empirical_mean": 0.0,
+            "empirical_variance": 0.0,
+            "theoretical_variance": 0.0,
+            "relative_variance_error": 0.0,
+            "empirical_std": 0.0,
+            "theoretical_std": 0.0,
+            "out_of_range_fraction": 0.0
+        },
+        {
+            "noise_scale": 0.02,
+            "empirical_mean": 5.7594955483277335e-05,
+            "empirical_variance": 0.0007939476355651144,
+            "theoretical_variance": 0.0008,
+            "relative_variance_error": 0.007565455543607108,
+            "empirical_std": 0.028177076419762116,
+            "theoretical_std": 0.028284271247461905,
+            "out_of_range_fraction": 0.46663821170491543
+        },
+        {
+            "noise_scale": 0.1,
+            "empirical_mean": 0.00028797449583338203,
+            "empirical_variance": 0.019848690821973946,
+            "theoretical_variance": 0.020000000000000004,
+            "relative_variance_error": 0.007565458901302896,
+            "empirical_std": 0.1408853818604824,
+            "theoretical_std": 0.14142135623730953,
+            "out_of_range_fraction": 0.47842055109981735
+        },
+        {
+            "noise_scale": 0.4,
+            "empirical_mean": 0.001151897937550404,
+            "empirical_variance": 0.3175790530289289,
+            "theoretical_variance": 0.32000000000000006,
+            "relative_variance_error": 0.007565459284597334,
+            "empirical_std": 0.5635415273331051,
+            "theoretical_std": 0.5656854249492381,
+            "out_of_range_fraction": 0.5326173270864766
+        }
+    ],
+    "reproducibility_passed": true,
+    "original_data_unchanged": true,
+    "clipping_applied": false,
+    "passed": true
+}

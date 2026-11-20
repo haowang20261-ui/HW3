@@ -1,0 +1,27 @@
+{
+    "experiment": "Laplace FedAvg Pilot",
+    "rounds": 10,
+    "client_fraction": 0.1,
+    "local_epochs": 5,
+    "learning_rate": 0.01,
+    "batch_size": 32,
+    "model_seed": 42,
+    "noise_seed": 2026,
+    "noise_scales": [
+        0.0,
+        0.1
+    ],
+    "clean_final_val_loss": 3.685930026122704,
+    "noisy_final_val_loss": 3.6848997744528535,
+    "clean_final_val_accuracy": 0.06211955673482129,
+    "noisy_final_val_accuracy": 0.0721086311846418,
+    "clean_minus_noisy_accuracy_pp": -0.9989074449820508,
+    "max_final_parameter_difference": 0.010025318711996078,
+    "training_times_seconds": {
+        "0.0": 5.4767826000461355,
+        "0.1": 6.049431499966886
+    },
+    "original_training_data_modified": false,
+    "test_set_accessed": false,
+    "passed": true
+}

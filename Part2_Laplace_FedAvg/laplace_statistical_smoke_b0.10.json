@@ -1,0 +1,15 @@
+{
+    "client_id": 25,
+    "noise_scale": 0.1,
+    "pixel_samples": 73696,
+    "mean": 0.0007944354496290854,
+    "mean_absolute": 0.9949030127213501,
+    "variance": 1.9796695942656701,
+    "tail_probability": 0.13482414242292662,
+    "expected_tail_probability": 0.1353352832366127,
+    "horizontal_correlation": -4.82305921107337e-05,
+    "across_image_correlation": 0.0027050268594941665,
+    "passed": true,
+    "training_performed": false,
+    "test_set_accessed": false
+}

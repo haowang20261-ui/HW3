@@ -1,0 +1,81 @@
+{
+    "experiment": "Part 2 Edge Cases",
+    "client_id": 25,
+    "training_samples": 94,
+    "edge_cases": {
+        "zero_noise": {
+            "max_pixel_difference": 0.0,
+            "passed": true
+        },
+        "invalid_scales": {
+            "tested": 4,
+            "rejected": 4,
+            "passed": true
+        },
+        "no_clipping": {
+            "noise_scale": 0.4,
+            "below_zero": 5323,
+            "above_one": 33793,
+            "outside_fraction": 0.5307750759878419,
+            "passed": true
+        },
+        "reproducibility": {
+            "same_seed_max_diff": 0.0,
+            "different_seed_max_diff": 2.655977725982666,
+            "passed": true
+        },
+        "extreme_noise": {
+            "experiments": [
+                {
+                    "noise_scale": 0.0,
+                    "mean_local_loss": 4.107653759895487,
+                    "update_l2_norm": 0.09967589861149019,
+                    "parameters_finite": true
+                },
+                {
+                    "noise_scale": 0.4,
+                    "mean_local_loss": 4.113649743668576,
+                    "update_l2_norm": 0.1055278077946277,
+                    "parameters_finite": true
+                },
+                {
+                    "noise_scale": 1.0,
+                    "mean_local_loss": 4.1144865827357515,
+                    "update_l2_norm": 0.14156114465816286,
+                    "parameters_finite": true
+                },
+                {
+                    "noise_scale": 2.0,
+                    "mean_local_loss": 4.099520274933348,
+                    "update_l2_norm": 0.23484673991954239,
+                    "parameters_finite": true
+                }
+            ],
+            "passed": true
+        },
+        "batch_boundaries": {
+            "experiments": [
+                {
+                    "batch_size": 32,
+                    "expected_steps": 3,
+                    "mean_local_loss": 4.153430928575232
+                },
+                {
+                    "batch_size": 128,
+                    "expected_steps": 1,
+                    "mean_local_loss": 4.1671013832092285
+                },
+                {
+                    "batch_size": 1,
+                    "expected_steps": 94,
+                    "mean_local_loss": 4.0154650021106635
+                }
+            ],
+            "passed": true
+        }
+    },
+    "all_passed": true,
+    "original_client_data_unchanged": true,
+    "full_fedavg_training_performed": false,
+    "held_out_test_accessed": false
+}

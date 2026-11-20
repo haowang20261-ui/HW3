@@ -1,0 +1,58 @@
+{
+    "experiment": "Zero-Noise SGD Equivalence",
+    "clients": [
+        0,
+        25,
+        67
+    ],
+    "local_epochs": 2,
+    "learning_rate": 0.01,
+    "batch_size": 32,
+    "round_id": 0,
+    "noise_seed": 2026,
+    "records": [
+        {
+            "client_id": 0,
+            "training_samples": 275,
+            "reference_loss": 4.021892345168374,
+            "zero_noise_loss": 4.021892345168374,
+            "positive_noise_loss": 4.022834596200423,
+            "zero_noise_max_parameter_diff": 0.0,
+            "zero_noise_parameter_l2_diff": 0.0,
+            "positive_noise_max_parameter_diff": 0.0013691697968170047,
+            "positive_noise_parameter_l2_diff": 0.037317442095620074,
+            "zero_noise_equivalence_passed": true,
+            "positive_noise_effect_passed": true
+        },
+        {
+            "client_id": 25,
+            "training_samples": 94,
+            "reference_loss": 4.107653759895487,
+            "zero_noise_loss": 4.107653759895487,
+            "positive_noise_loss": 4.1074600574818065,
+            "zero_noise_max_parameter_diff": 0.0,
+            "zero_noise_parameter_l2_diff": 0.0,
+            "positive_noise_max_parameter_diff": 0.0005510412156581879,
+            "positive_noise_parameter_l2_diff": 0.019774364319981846,
+            "zero_noise_equivalence_passed": true,
+            "positive_noise_effect_passed": true
+        },
+        {
+            "client_id": 67,
+            "training_samples": 314,
+            "reference_loss": 3.9983420372009277,
+            "zero_noise_loss": 3.9983420372009277,
+            "positive_noise_loss": 3.9955290950787297,
+            "zero_noise_max_parameter_diff": 0.0,
+            "zero_noise_parameter_l2_diff": 0.0,
+            "positive_noise_max_parameter_diff": 0.0026079118251800537,
+            "positive_noise_parameter_l2_diff": 0.051880333889374,
+            "zero_noise_equivalence_passed": true,
+            "positive_noise_effect_passed": true
+        }
+    ],
+    "all_passed": true,
+    "global_fedavg_training_performed": false,
+    "checkpoint_loading_performed": false,
+    "held_out_test_accessed": false
+}

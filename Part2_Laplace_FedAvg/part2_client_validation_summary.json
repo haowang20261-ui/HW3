@@ -1,0 +1,137 @@
+{
+    "experiment": "Client-Level Clean Validation Analysis",
+    "model_round": 800,
+    "clients": 100,
+    "total_validation_samples": 6407,
+    "noise_scales": [
+        0.0,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.4
+    ],
+    "model_summaries": [
+        {
+            "noise_scale": 0.0,
+            "completed_round": 800,
+            "correct_predictions": 4221,
+            "validation_samples": 6407,
+            "weighted_validation_accuracy": 65.88106758233182,
+            "expected_validation_accuracy": 65.8811,
+            "accuracy_difference_pp": 3.241766818007363e-05,
+            "mean_client_accuracy": 64.9870475581236,
+            "median_client_accuracy": 65.82156611039795
+        },
+        {
+            "noise_scale": 0.02,
+            "completed_round": 800,
+            "correct_predictions": 4213,
+            "validation_samples": 6407,
+            "weighted_validation_accuracy": 65.75620415170907,
+            "expected_validation_accuracy": 65.7562,
+            "accuracy_difference_pp": 4.151709063648923e-06,
+            "mean_client_accuracy": 64.90893398287947,
+            "median_client_accuracy": 65.64832089552239
+        },
+        {
+            "noise_scale": 0.05,
+            "completed_round": 800,
+            "correct_predictions": 4209,
+            "validation_samples": 6407,
+            "weighted_validation_accuracy": 65.6937724363977,
+            "expected_validation_accuracy": 65.6938,
+            "accuracy_difference_pp": 2.7563602301938772e-05,
+            "mean_client_accuracy": 64.82373753932166,
+            "median_client_accuracy": 65.27536231884058
+        },
+        {
+            "noise_scale": 0.1,
+            "completed_round": 800,
+            "correct_predictions": 4178,
+            "validation_samples": 6407,
+            "weighted_validation_accuracy": 65.20992664273452,
+            "expected_validation_accuracy": 65.2099,
+            "accuracy_difference_pp": 2.664273451102872e-05,
+            "mean_client_accuracy": 64.41325991115811,
+            "median_client_accuracy": 64.12080223880596
+        },
+        {
+            "noise_scale": 0.2,
+            "completed_round": 800,
+            "correct_predictions": 4034,
+            "validation_samples": 6407,
+            "weighted_validation_accuracy": 62.96238489152489,
+            "expected_validation_accuracy": 62.9624,
+            "accuracy_difference_pp": 1.5108475110992003e-05,
+            "mean_client_accuracy": 62.195436565177616,
+            "median_client_accuracy": 63.28626444159178
+        },
+        {
+            "noise_scale": 0.4,
+            "completed_round": 800,
+            "correct_predictions": 3591,
+            "validation_samples": 6407,
+            "weighted_validation_accuracy": 56.04807242078976,
+            "expected_validation_accuracy": 56.0481,
+            "accuracy_difference_pp": 2.757921023999188e-05,
+            "mean_client_accuracy": 55.56707368571523,
+            "median_client_accuracy": 55.409356725146196
+        }
+    ],
+    "sensitivity_summaries": [
+        {
+            "noise_scale": 0.02,
+            "clients_declined": 24,
+            "clients_improved": 15,
+            "clients_unchanged": 61,
+            "median_client_change_pp": 0.0,
+            "mean_client_change_pp": -0.07811357524413502,
+            "min_client_change_pp": -2.985074626865668,
+            "max_client_change_pp": 5.0
+        },
+        {
+            "noise_scale": 0.05,
+            "clients_declined": 27,
+            "clients_improved": 20,
+            "clients_unchanged": 53,
+            "median_client_change_pp": 0.0,
+            "mean_client_change_pp": -0.16331001880194607,
+            "min_client_change_pp": -3.5714285714285694,
+            "max_client_change_pp": 3.94736842105263
+        },
+        {
+            "noise_scale": 0.1,
+            "clients_declined": 45,
+            "clients_improved": 25,
+            "clients_unchanged": 30,
+            "median_client_change_pp": 0.0,
+            "mean_client_change_pp": -0.5737876469654983,
+            "min_client_change_pp": -7.79220779220779,
+            "max_client_change_pp": 5.882352941176471
+        },
+        {
+            "noise_scale": 0.2,
+            "clients_declined": 68,
+            "clients_improved": 16,
+            "clients_unchanged": 16,
+            "median_client_change_pp": -2.649122807017541,
+            "mean_client_change_pp": -2.7916109929459845,
+            "min_client_change_pp": -11.688311688311693,
+            "max_client_change_pp": 5.882352941176471
+        },
+        {
+            "noise_scale": 0.4,
+            "clients_declined": 91,
+            "clients_improved": 5,
+            "clients_unchanged": 4,
+            "median_client_change_pp": -9.272875816993462,
+            "mean_client_change_pp": -9.419973872408372,
+            "min_client_change_pp": -24.63768115942029,
+            "max_client_change_pp": 12.500000000000004
+        }
+    ],
+    "all_round800_accuracies_verified": true,
+    "training_performed": false,
+    "held_out_test_accessed": false
+}

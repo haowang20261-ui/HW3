@@ -1,0 +1,84 @@
+{
+    "experiment": "Part 2 Final Test Evaluation",
+    "model_round": 800,
+    "noise_scales": [
+        0.0,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.4
+    ],
+    "test_samples": 3621,
+    "test_data_perturbed": false,
+    "checkpoint_type": "latest",
+    "training_performed": false,
+    "results": [
+        {
+            "noise_scale": 0.0,
+            "round": 800,
+            "final_train_accuracy": 0.6715713274057754,
+            "final_val_accuracy": 0.6588106758233182,
+            "test_accuracy": 0.6697045015189175,
+            "test_loss": 1.2814792600398366,
+            "test_correct": 2425,
+            "test_samples": 3621,
+            "test_accuracy_drop_pp": 0.0
+        },
+        {
+            "noise_scale": 0.02,
+            "round": 800,
+            "final_train_accuracy": 0.6707844834369344,
+            "final_val_accuracy": 0.6575620415170906,
+            "test_accuracy": 0.6666666666666666,
+            "test_loss": 1.282568161739759,
+            "test_correct": 2414,
+            "test_samples": 3621,
+            "test_accuracy_drop_pp": 0.30378348522508425
+        },
+        {
+            "noise_scale": 0.05,
+            "round": 800,
+            "final_train_accuracy": 0.666417499409867,
+            "final_val_accuracy": 0.6569377243639769,
+            "test_accuracy": 0.6636288318144159,
+            "test_loss": 1.2869201297754742,
+            "test_correct": 2403,
+            "test_samples": 3621,
+            "test_accuracy_drop_pp": 0.6075669704501574
+        },
+        {
+            "noise_scale": 0.1,
+            "round": 800,
+            "final_train_accuracy": 0.6609095916279801,
+            "final_val_accuracy": 0.6520992664273451,
+            "test_accuracy": 0.6583816625241646,
+            "test_loss": 1.2987087642708657,
+            "test_correct": 2384,
+            "test_samples": 3621,
+            "test_accuracy_drop_pp": 1.1322838994752837
+        },
+        {
+            "noise_scale": 0.2,
+            "round": 800,
+            "final_train_accuracy": 0.6421827051695649,
+            "final_val_accuracy": 0.6296238489152489,
+            "test_accuracy": 0.6415354874344104,
+            "test_loss": 1.363336012660387,
+            "test_correct": 2323,
+            "test_samples": 3621,
+            "test_accuracy_drop_pp": 2.8169014084507116
+        },
+        {
+            "noise_scale": 0.4,
+            "round": 800,
+            "final_train_accuracy": 0.5818317727594619,
+            "final_val_accuracy": 0.5604807242078976,
+            "test_accuracy": 0.5713891190278928,
+            "test_loss": 1.6175802484199968,
+            "test_correct": 2069,
+            "test_samples": 3621,
+            "test_accuracy_drop_pp": 9.831538249102467
+        }
+    ]
+}
