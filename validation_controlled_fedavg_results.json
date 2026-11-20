@@ -1,0 +1,29 @@
+{
+    "test": "Controlled FedAvg Training Dynamics",
+    "fixed_clients": [
+        75,
+        43,
+        64,
+        8,
+        99
+    ],
+    "training_samples": 1320,
+    "communication_rounds": 10,
+    "local_epochs": 1,
+    "batch_size": 32,
+    "learning_rate": 0.01,
+    "initial_loss": 4.165144914569277,
+    "final_loss": 3.7532410708340733,
+    "loss_reduction": 0.4119038437352036,
+    "initial_accuracy": 0.03333333333333333,
+    "final_accuracy": 0.06893939393939394,
+    "decreasing_loss_rounds": 10,
+    "max_loss_trace_difference": 0.0,
+    "max_accuracy_trace_difference": 0.0,
+    "max_replay_parameter_difference": 0.0,
+    "zero_lr_optimizer_steps": 43,
+    "zero_lr_nonzero_gradient_batches": 43,
+    "zero_lr_parameter_difference": 7.450580596923828e-09,
+    "normal_training_parameter_change": 0.036134637892246246,
+    "passed": true
+}

@@ -1,0 +1,22 @@
+{
+    "test": "FedAvg vs Centralized Full-batch SGD",
+    "selected_clients": [
+        25,
+        67
+    ],
+    "client_sample_counts": [
+        94,
+        314
+    ],
+    "local_epochs": 1,
+    "learning_rate": 0.01,
+    "parameters_compared": 108478,
+    "max_absolute_difference": 7.450580596923828e-09,
+    "parameter_rmse": 8.03975342681458e-10,
+    "tolerance": 2e-06,
+    "unweighted_max_difference": 0.0003064759075641632,
+    "initial_loss": 4.155119895935059,
+    "final_centralized_loss": 4.133907318115234,
+    "final_fedavg_loss": 4.133907318115234,
+    "passed": true
+}

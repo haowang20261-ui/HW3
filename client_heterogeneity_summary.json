@@ -1,0 +1,16 @@
+{
+    "experiment": "FedAvg_C10_E5_R800",
+    "selected_round": 796,
+    "clients_evaluated": 100,
+    "validation_samples": 6407,
+    "pooled_validation_accuracy": 0.6620883408771656,
+    "pooled_validation_loss": 1.2872869736582286,
+    "unweighted_client_mean_accuracy": 0.6542971575042276,
+    "median_client_accuracy": 0.6617647058823529,
+    "std_client_accuracy": 0.11607718939831853,
+    "minimum_client_accuracy": 0.20833333333333334,
+    "percentile_10_accuracy": 0.49044903777619386,
+    "percentile_90_accuracy": 0.8039835164835165,
+    "maximum_client_accuracy": 0.8947368421052632,
+    "class_accuracy_pearson_correlation": 0.3496077185033822
+}

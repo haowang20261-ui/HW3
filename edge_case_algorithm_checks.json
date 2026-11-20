@@ -1,0 +1,30 @@
+{
+    "partial_minibatch": {
+        "client_id": 22,
+        "train_samples": 257,
+        "local_epochs": 2,
+        "expected_steps": 18,
+        "observed_steps": 18,
+        "size_one_batches": 2,
+        "passed": true
+    },
+    "missing_classes": {
+        "client_id": 25,
+        "present_classes": 37,
+        "missing_classes": 25,
+        "output_classes": 62,
+        "local_loss": 4.141410969673319,
+        "passed": true
+    },
+    "weighted_fedavg": {
+        "client_a_samples": 1,
+        "client_b_samples": 3,
+        "expected_value": 2.5,
+        "passed": true
+    },
+    "single_client": {
+        "client_id": 22,
+        "train_samples": 257,
+        "passed": true
+    }
+}

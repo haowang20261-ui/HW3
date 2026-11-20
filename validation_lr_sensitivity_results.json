@@ -1,0 +1,48 @@
+{
+    "test": "Learning Rate Sensitivity",
+    "clients": [
+        75,
+        43,
+        64,
+        8,
+        99
+    ],
+    "rounds": 20,
+    "local_epochs": 1,
+    "batch_size": 32,
+    "experiments": [
+        {
+            "learning_rate": 0.001,
+            "initial_train_loss": 4.165144914569277,
+            "final_train_loss": 3.983370382135565,
+            "loss_reduction": 0.1817745324337121,
+            "final_train_accuracy": 0.06893939393939394,
+            "global_val_loss": 3.9963735726613865,
+            "global_val_accuracy": 0.054471671609177465,
+            "max_parameter_change": 0.009870775043964386
+        },
+        {
+            "learning_rate": 0.01,
+            "initial_train_loss": 4.165144914569277,
+            "final_train_loss": 3.71978759765625,
+            "loss_reduction": 0.44535731691302693,
+            "final_train_accuracy": 0.06893939393939394,
+            "global_val_loss": 3.726875950584215,
+            "global_val_accuracy": 0.05478383018573435,
+            "max_parameter_change": 0.039512939751148224
+        },
+        {
+            "learning_rate": 0.05,
+            "initial_train_loss": 4.165144914569277,
+            "final_train_loss": 3.6812158064408735,
+            "loss_reduction": 0.4839291081284034,
+            "final_train_accuracy": 0.09166666666666666,
+            "global_val_loss": 3.6932972526520524,
+            "global_val_accuracy": 0.0786639612923365,
+            "max_parameter_change": 0.08325066417455673
+        }
+    ],
+    "parameter_diff_001_vs_01": 0.03374667465686798,
+    "parameter_diff_01_vs_05": 0.05827388912439346,
+    "passed": true
+}
