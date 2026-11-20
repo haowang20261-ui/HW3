@@ -1,0 +1,20 @@
+{
+    "test": "Multi-Round Serial-Ray Equivalence",
+    "rounds": 10,
+    "clients_per_round": 4,
+    "local_epochs": 5,
+    "learning_rate": 0.01,
+    "batch_size": 32,
+    "maximum_absolute_differences": {
+        "train_loss": 1.6020888171652814e-08,
+        "val_loss": 4.286845634027259e-08,
+        "train_accuracy": 6.938893903907228e-17,
+        "val_accuracy": 6.245004513516506e-17
+    },
+    "loss_tolerance": 0.0001,
+    "accuracy_tolerance": 0.001,
+    "loss_consistency_pass": true,
+    "accuracy_consistency_pass": true,
+    "serial_replay_seconds": 11.306096800020896,
+    "passed": true
+}

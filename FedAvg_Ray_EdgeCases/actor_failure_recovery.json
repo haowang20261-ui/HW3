@@ -1,0 +1,31 @@
+{
+    "test": "Actor Method Failure and Recovery",
+    "selected_clients": [
+        43,
+        8,
+        64,
+        75
+    ],
+    "intentionally_failed_client": 8,
+    "failure_phase_successful_clients": [
+        43,
+        64,
+        75
+    ],
+    "failure_phase_failed_clients": [
+        8
+    ],
+    "failed_round_rejected": true,
+    "global_model_unchanged_after_failure": true,
+    "recovery_successful_clients": 4,
+    "recovery_actor_pids": [
+        11516,
+        24164,
+        23600,
+        14588
+    ],
+    "recovery_max_parameter_change": 0.007306009531021118,
+    "failure_phase_wall_seconds": 4.231051600014325,
+    "recovery_phase_wall_seconds": 4.384898599993903,
+    "passed": true
+}

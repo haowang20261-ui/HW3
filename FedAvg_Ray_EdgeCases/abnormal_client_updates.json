@@ -1,0 +1,37 @@
+{
+    "test": "Abnormal Client Updates",
+    "selected_clients": [
+        25,
+        67,
+        36,
+        22
+    ],
+    "sample_counts": [
+        94,
+        314,
+        182,
+        257
+    ],
+    "total_samples": 847,
+    "aggregation_weights": [
+        0.11097992916174734,
+        0.3707201889020071,
+        0.21487603305785125,
+        0.30342384887839435
+    ],
+    "weighted_reference_max_difference": 9.368203462978286e-09,
+    "uniform_average_max_difference": 0.005367473233491182,
+    "invalid_update_rejections": {
+        "Missing fourth client": true,
+        "Zero training samples": true,
+        "Negative training samples": true,
+        "NaN parameter": true,
+        "Infinite parameter": true,
+        "Wrong parameter shape": true,
+        "Missing model parameter": true
+    },
+    "finite_outlier_parameter_perturbation": 100.0,
+    "finite_outlier_global_shift": 11.097992597147822,
+    "finite_outlier_expected_shift": 11.097992916174734,
+    "passed": true
+}

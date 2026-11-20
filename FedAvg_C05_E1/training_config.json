@@ -1,0 +1,9 @@
+{
+    "num_clients": 100,
+    "client_fraction": 0.05,
+    "local_epochs": 1,
+    "learning_rate": 0.01,
+    "batch_size": 32,
+    "seed": 42,
+    "planned_rounds": 400
+}

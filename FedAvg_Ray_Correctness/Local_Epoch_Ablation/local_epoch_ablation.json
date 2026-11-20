@@ -1,0 +1,17 @@
+{
+    "test": "Local Epoch Ablation",
+    "communication_rounds": 30,
+    "clients_per_round": 4,
+    "learning_rate": 0.01,
+    "batch_size": 32,
+    "control_local_epochs": 1,
+    "reference_local_epochs": 5,
+    "E1_final_val_accuracy": 0.05478383018573435,
+    "E5_final_val_accuracy": 0.1854221944747932,
+    "E1_best_val_accuracy": 0.10207585453410332,
+    "E5_best_val_accuracy": 0.1854221944747932,
+    "final_accuracy_gap_pp": 13.063836428905883,
+    "best_accuracy_gap_pp": 8.334633994068987,
+    "control_elapsed_seconds": 137.97330760001205,
+    "matched_client_selections": true
+}

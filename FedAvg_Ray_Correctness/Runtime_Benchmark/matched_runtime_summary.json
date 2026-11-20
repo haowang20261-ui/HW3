@@ -1,0 +1,19 @@
+{
+    "test": "Matched Serial-Ray Runtime Benchmark",
+    "rounds_per_mode": 5,
+    "clients_per_round": 4,
+    "local_epochs": 5,
+    "cpu_threads_per_training_task": 1,
+    "serial_total_seconds": 1.1203974999953061,
+    "ray_total_seconds": 22.72071500000311,
+    "serial_mean_round_seconds": 0.22388242000015451,
+    "ray_mean_round_seconds": 4.543982620025053,
+    "ray_over_serial_time_ratio": 20.279155389134925,
+    "serial_over_ray_speedup": 0.04931171840301472,
+    "mean_actor_phase_seconds": 4.483099120017141,
+    "mean_max_worker_seconds": 2.006296339991968,
+    "residual_actor_phase_seconds": 2.476802780025173,
+    "max_model_parameter_difference": 0.0,
+    "max_validation_loss_difference": 0.0,
+    "numerical_consistency_passed": true
+}

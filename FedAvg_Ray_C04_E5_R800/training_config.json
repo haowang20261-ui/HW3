@@ -1,0 +1,13 @@
+{
+    "experiment": "FedAvg_Ray_C04_E5_R800",
+    "num_clients": 100,
+    "clients_per_round": 4,
+    "client_fraction": 0.04,
+    "local_epochs": 5,
+    "learning_rate": 0.01,
+    "batch_size": 32,
+    "seed": 42,
+    "planned_rounds": 800,
+    "num_cpus_per_actor": 1,
+    "num_gpus_per_actor": 0
+}

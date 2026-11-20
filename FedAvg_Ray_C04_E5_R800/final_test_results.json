@@ -1,0 +1,15 @@
+{
+    "experiment": "FedAvg_Ray_C04_E5_R800",
+    "checkpoint_round": 791,
+    "clients_per_round": 4,
+    "local_epochs": 5,
+    "communication_rounds": 800,
+    "best_validation_accuracy": 0.6544404557515218,
+    "best_validation_loss": 1.307079801028058,
+    "test_samples": 3621,
+    "correct_predictions": 2416,
+    "incorrect_predictions": 1205,
+    "test_accuracy": 0.6672190002761668,
+    "test_loss": 1.300250733171962,
+    "test_minus_validation_accuracy_pp": 1.2778544524644997
+}

@@ -1,0 +1,20 @@
+{
+    "experiment": "Ray FedAvg Runtime Decomposition",
+    "communication_rounds": 800,
+    "block_size": 50,
+    "rolling_window": 50,
+    "mean_actor_phase_seconds": 4.458046058624604,
+    "mean_other_phase_seconds": 0.3189190641261666,
+    "mean_round_seconds": 4.776965122750771,
+    "total_recorded_round_seconds": 3821.572098200617,
+    "overall_actor_phase_share": 0.9332381426426408,
+    "minimum_round_seconds": 4.263113800028805,
+    "median_round_seconds": 4.753112949983915,
+    "p95_round_seconds": 5.107688905007671,
+    "maximum_round_seconds": 5.730816499970388,
+    "first_100_round_mean_seconds": 4.727258526000078,
+    "last_100_round_mean_seconds": 4.758267154003843,
+    "last_to_first_round_time_ratio": 1.0065595371679412,
+    "actor_phase_includes_actual_training": true,
+    "pure_ray_overhead_isolated": false
+}

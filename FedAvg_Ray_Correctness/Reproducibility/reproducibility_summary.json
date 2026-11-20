@@ -1,0 +1,17 @@
+{
+    "test": "Ray Parallel FedAvg Reproducibility",
+    "rounds_per_trial": 5,
+    "clients_per_round": 4,
+    "local_epochs": 5,
+    "trial_A_submission_order": "normal",
+    "trial_B_submission_order": "reversed",
+    "aggregation_order": "canonical",
+    "max_parameter_difference_A_B": 0.0,
+    "max_validation_loss_difference_A_B": 0.0,
+    "max_validation_accuracy_difference_A_B": 0.0,
+    "max_loss_difference_vs_reference": 4.440892098500626e-16,
+    "max_accuracy_difference_vs_reference": 6.245004513516506e-17,
+    "trial_A_seconds": 22.418064600031357,
+    "trial_B_seconds": 22.744637699972373,
+    "passed": true
+}

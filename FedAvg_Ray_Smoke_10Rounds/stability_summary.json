@@ -1,0 +1,18 @@
+{
+    "experiment": "Ray FedAvg 10-Round Stability",
+    "rounds": 10,
+    "clients_per_round": 4,
+    "local_epochs": 5,
+    "learning_rate": 0.01,
+    "batch_size": 32,
+    "actor_executions": 40,
+    "distinct_actor_pids_observed": 39,
+    "initial_validation_accuracy": 0.018729514593413453,
+    "final_validation_accuracy": 0.1353207429374122,
+    "best_validation_accuracy": 0.1353207429374122,
+    "best_round": 10,
+    "average_actor_wall_seconds": 4.2005167500057725,
+    "total_elapsed_seconds": 45.32242360000964,
+    "final_available_ram_gb": 15.513351440429688,
+    "passed": true
+}

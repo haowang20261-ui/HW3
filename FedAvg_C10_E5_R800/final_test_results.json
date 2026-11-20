@@ -1,0 +1,14 @@
+{
+    "experiment": "FedAvg_C10_E5_R800",
+    "client_fraction": 0.1,
+    "local_epochs": 5,
+    "communication_rounds": 800,
+    "selected_round": 796,
+    "validation_accuracy": 0.6620883408771656,
+    "validation_loss": 1.2872869736582286,
+    "test_samples": 3621,
+    "correct_predictions": 2431,
+    "test_loss": 1.2786223004121735,
+    "test_accuracy": 0.6713615023474179,
+    "validation_test_gap_pp": -0.9273161470252256
+}
